@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">FORMULARIO PARA LLENAR</h1>
+      <p id="description">En el siguiente formulario usted llenara las casillas con sus datos </p>
+    </header>
+    
+    <form id="survey-form">
+
+      <label id="name-label"> Ingresar su Nombre: <input id="name" placeholder="escriba aquí" type="text" required ></input></label>
+
+      <hr>
+
+      <label id="email-label">Ingresar su Email <input id="email" placeholder="escriba aquí" type="email" required ></input></label>
+
+        <hr>
+
+      <label id="number-label">Ingresar un Numero <input id="number" placeholder="elegir un número" type="number" min="1" max="3." required ></input></label>
+
+        <hr>
+      
+      <select id="dropdown">
+         <option>Futbol</option>
+         <option>Basquet</option>
+      </select>
+
+        <hr>
+
+       <label> Boca o River </label>
+       <input type="radio" name="radio-grupo" id="River" value="8" ></input>
+       <label for="Boca"> Boca Jrs </label>
+       <input type="radio" name="radio-grupo" id="River" value="2"></input>
+       <label for="leche"> River</label>
+
+         <hr>
+
+       <label> Ganar la Final a tu máximo rival o Descender </label>
+       <input type="checkbox" name="checkbox-grupo" id="final" value="8" ></input>
+       <label for="pastel">Final</label>
+       <input type="checkbox" name="checkbox-grupo" id="descender" value="2"></input>
+       <label for="descender">Descender</label>
+
+         <hr>
+
+       <textarea> Ingresar un comentario piola...
+       </textarea>
+
+
+       <button id="submit"></buttom>
+
+    </form>
+  
+  
+  </body>  
+</html>

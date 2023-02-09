@@ -1,0 +1,18 @@
+header {
+  font-family: Verdana;
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+}
+
+#survey-form {
+  font-family: "Calibri";
+  font-weight: bold;
+  font-size: 15px;
+}
+
+body {
+  background-color: #e9ebe9
+}
